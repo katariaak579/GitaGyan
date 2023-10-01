@@ -1,7 +1,7 @@
 FROM python:3.9-slim
 WORKDIR /app
 COPY ingest.py /app/
-COPY datais/ /app/datais/
+COPY data/ /app/data/
 COPY bot.py /app/
 COPY requirements.txt /app/
 
