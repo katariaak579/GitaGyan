@@ -1,4 +1,4 @@
-FROM python:3.9-slim
+FROM python
 WORKDIR /app
 COPY ingest.py /app/
 COPY data/ /app/data/
