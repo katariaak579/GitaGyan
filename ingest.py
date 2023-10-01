@@ -5,7 +5,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from torch import cuda
 
 device = f'cuda:{cuda.current_device()}' if cuda.is_available() else 'cpu'
-DATA_PATH = 'datais/'
+DATA_PATH = 'data/'
 DB_FAISS_PATH = 'vectorstore/db_faiss'
 
 # Create vector database
