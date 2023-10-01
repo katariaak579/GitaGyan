@@ -1,10 +1,10 @@
-# GitaGPT
+# GitaGyan
 
 GitaGyan is an AI chatbot to provide solution to various problems you have. 
- and guidance based on the teachings of The Bhagavad Gita. It utilizes Meta’s Llama 2( llama-2-7b-chat.ggmlv3.q8_0.bin ) model to generate meaningful responses to user queries. It uses ConversationBufferMemory and VectorStoreRetrieveMemory to provide best possible answer according to the past conversations with the user.
+and guidance based on the teachings of The Bhagavad Gita. It utilizes Meta’s Llama 2( llama-2-7b-chat.ggmlv3.q8_0.bin ) model to generate meaningful responses to user queries. It uses ConversationBufferMemory and VectorStoreRetrieveMemory to provide best possible answer according to the past conversations with the user.
 
 # How to run
-I have created a bash file chat.sh which will run the application by running the container using the docker image. Make the bash file availbale in your system. 
+I have created a bash file run.sh which will run the application by running the container using the docker image. Make the bash file availbale in your system. 
 Go to the directory where the file is present
 
 to make the bash file executable run:
