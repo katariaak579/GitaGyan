@@ -19,9 +19,9 @@ jobs:
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
     - name: docker build gitagyan
       run: |
-        docker build -t gitagyan:latest .
+        docker build -t gitagyan .
   
     - name: docker push
       run: |
-        docker push rapidfort/gitagyan:latest
+        docker push DOCKER_USER/gitagyan
       
