@@ -14,4 +14,5 @@ RUN pip install -r requirements.txt
 RUN pip install ctransformers  
 RUN python ingest.py
 
+
 CMD ["chainlit", "run", "bot.py", "-w"]
