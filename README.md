@@ -9,7 +9,7 @@ Go to the directory where the file is present
 
 to make the bash file executable run:
 ```bash
-chmod +x chat.sh
+chmod +x run.sh
 ```
 
 simply run the bash file:
