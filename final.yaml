@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gitagyan development
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: gitagyan development
+  template:
+    metadata:
+      labels:
+        app: gitagyan development
+    spec:
+      containers:
+      - name: gitagyan development
+        image: gitagyan:latest
+        ports:
+        - containerPort: 8000
